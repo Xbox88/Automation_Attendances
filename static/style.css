@@ -1,0 +1,63 @@
+﻿body {
+	margin: 0;
+	padding: 0;
+	background-image:url('app3.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	font-family: Arial, sans-serif;
+	color: black;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 40px;
+	font-size: 48px;
+	text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.3);
+}
+
+.form-container {
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.7);
+	padding: 40px;
+	margin: 60px auto;
+	border-radius: 20px;
+	width: 90%;
+	max-width: 500px;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+	font-size: 32px;
+	margin-bottom: 20px;
+}
+
+label {
+	font-size: 18px;
+}
+
+.input-box {
+	width: 80%;
+	max-width: 300px;
+	height: 40px;
+	font-size: 18px;
+	padding: 5px 10px;
+	border-radius: 6px;
+	border: 1px solid #999;
+	margin-top: 10px;
+}
+
+.submit-btn {
+	margin-top: 20px;
+	font-size: 20px;
+	padding: 10px 30px;
+	background-color: #007BFF;
+	color: white;
+	border: none;
+	border-radius: 8px;
+	cursor: pointer;
+}
+
+.submit-btn:hover {
+	background-color: #0056b3;
+}
